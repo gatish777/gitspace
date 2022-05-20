@@ -1,0 +1,10 @@
+    public static int Bsearch(int[] arr, int l, int r, int x) {
+        if(r < l) 
+            return -1;
+        int mid = l + (r-l)/2;
+        if(arr[mid] == x) 
+            return mid;
+        if(arr[mid] >= x)
+            return Bsearch(arr, l, mid-1, x);
+        return Bsearch(arr, mid+1, r, x);
+    }

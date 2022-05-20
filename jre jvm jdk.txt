@@ -1,0 +1,5 @@
+1.1. Differences between JDK, JRE, and JVM
+JDK : Java Development ToolKit (Java Development Kit). JDK is the core of the entire Java, including the Java Runtime Environment (Java Runtime Environment), some Java tools (javac/java/jdb, etc.) and Java-based class libraries (that is, Java API included rt.jar).
+JRE : Java Runtime Environment (Java Runtime Environment). That is what we call the Java platform, all Java programs must be run under the JRE. Includes JVM and Java core class libraries and support files.
+JVM : Java Virtual Machine (Java Virtual Machine). The JVM is a part of the JRE, which is a fictitious computer that is implemented by simulating various computer functions on an actual computer
+The following figure shows the relationship between JDK, JRE, and JVM well (JDK 8):
